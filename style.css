@@ -48,3 +48,12 @@ h1{
    position: relative;
    left:-10000px;
 }
+@media (max-width: 650px) {
+    h1{
+        font-size: 80%;
+    }
+    .scroll_down a{
+        left:25%;
+        top:60%;
+    }
+ }
