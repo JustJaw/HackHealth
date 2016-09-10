@@ -35,8 +35,16 @@ h1{
     text-align: center;
     font-weight: bold;
 }
-.scroll_down:hover a:hover{
+.scroll_down:hover a:hover {
     background-color: maroon;
     border: solid 2px white;
     text-decoration: none;
+    
+}
+.scroll_down:hover>h1{
+    display: none;
+}
+.player{
+   position: relative;
+   left:-10000px;
 }

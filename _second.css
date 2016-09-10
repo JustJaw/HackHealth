@@ -1,0 +1,51 @@
+html { 
+  
+}
+
+
+*, h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 80px;
+}
+
+
+.first{
+    background: url(b.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  
+}
+h1{
+    font-size: 180%;
+    font-weight: bold;
+    padding: 5%;
+}
+.scroll_down a{
+    position: fixed;
+    left: 70%;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.scroll_down:hover a:hover {
+    background-color: maroon;
+    border: solid 2px white;
+    text-decoration: none;
+    
+}
+.scroll_down:hover>h1{
+    display: none;
+}
+.player{
+   position: relative;
+   left:-10000px;
+}
